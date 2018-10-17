@@ -1,63 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>buat web statis latihan</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<style>
+  	.bg-1 { 
+    	background-image: url("gorila.png");
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;	
+    	color: #555555;
+  	}
+  	.bg-2 { 
+      	background-color: #474e5d; /* Dark Blue */
+      	color: #ffffff;
+ 	 }
+  	.bg-3 { 
+     	 background-color: #fff; /* White */
+     	 color: #555555;
+ 	 }
+  </style>
+
 </head>
+
 <body>
 	
-	<!-- bagian header template -->
-	<header>
-		<h1 class="judul">web statis</h1>
-		<p class="deskripsi">dibuat untuk memenuhi tugas Praktikum Pengemabangan Aplikasi Web</p>
-	</header>
-	<!-- akhir bagian header template -->
 	
-	<div class="wrap">
-		<!-- bagian menu		 -->
-		<nav class="menu">
-			<ul>
-				<li>
-					<a href="#">home</a>
-				</li>
-				<li>
-					<a href="#">kontak</a>
-				</li>
-				<li>
-					<a href="#">galery</a>
-				</li>
-			</ul>
-		</nav>
-		<!-- akhir bagian menu -->
+	<div class="container-fluid bg-1 text-center">
+  		<h3>Who Am I?</h3>
+  		<p><img src="indexver2.jpg" class="img-thumbnail" alt="Bird" width="350" height="350"> 
+  	</div>
+	
 
-		<!-- bagian sidebar website -->
-		<aside class="sidebar">
-			<div class="widget">
-				<h2>Tutorial</h2>
-				<p>Selamat datang situs ini menyediakan informasi yang tidak penting gak usah di buka.</p>
-			</div>
-			
-		</aside>
-		<!-- akhir bagian sidebar website -->
-
-		<!-- bagian konten Blog -->
-		<div class="blog">
-			<div class="conteudo">
-				<div class="post-info">
-					Dibuat Oleh  <b>Fariz Maualana Herman 1167050062 </b> Berdasarkan contoh <a target="_blank" href="https://www.malasngoding.com">www.malasngoding.com</a>
-				</div>
-				<img src="konyol.jpg"/>
-				<h1> Biodata </h1>
-				<hr>
-				<p>
-					halaman ini berisi biodata sang pembuat
-				</p>				
-				<a href="belajar001.html" class="continue-lendo">Selengkapnya →</a>
-			</div>
-			
-		</div>
-		<!-- akhir bagian konten Blog -->
+	<div class="container-fluid bg-1 text-center">
+  		<h1>Biodata</h1>
+  		<p>
+  			<dt><h3>Nama 	: Fariz Maulana Herman</h3></dt>
+  			<dt><h3>NIM 	: 1167050062</h3></dt>
+  			<dt><h3>Jurusan : Teknik Informatika</h3></dt>
+  			<dt><h3>Asal 	: Bogor</h3></dt>
+  			<dt><h3>Hoby 	: Baca Manga(komik)</h3></dt>
+		</p>
 	</div>
 
+	<div class="container-fluid bg-1 text-center">
+  		<h3>My Motto</h3>
+  		<h1>Kerja Keras tidak akan menghianatimu</h1>
+	</div>
+
+	
 </body>
 </html>
